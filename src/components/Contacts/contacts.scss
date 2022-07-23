@@ -1,0 +1,41 @@
+.contacts {
+  max-width: 1440px;
+  display: flex;
+  justify-content: center;
+  margin: 40px auto 0 auto;
+  gap: 50px;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.contacts__card {
+  border-radius: 4px;
+  padding: 20px;
+  width: 400px;
+  height: auto;
+  color: white;
+  border: 1px solid #ffffff;
+}
+
+.contacts__title {
+  font-family: bold;
+  font-size: 18px;
+  margin-top: 10px;
+  color: #8f8f8f;
+}
+
+.contacts__item {
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.contacts__icons {
+  font-size: 20px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+
+  i {
+    cursor: pointer;
+  }
+}

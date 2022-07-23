@@ -1,0 +1,29 @@
+.search {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+
+  input {
+    max-width: 500px;
+  }
+
+  select {
+    width: 200px;
+  }
+}
+
+@media (max-width: 600px) {
+  .search {
+    flex-direction: column;
+
+    input {
+      //margin: 0 10px;
+      width: 90%;
+    }
+
+    select {
+      width: 90%;
+    }
+  }
+}
