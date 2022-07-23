@@ -3,7 +3,7 @@ import { IProps } from './types/contactTypes';
 import style from './contacts.scss';
 
 const Contacts: React.FC<IProps> = ({ contacts, visibleModal, deleteContacts }) => {
-    console.log('das');
+
     return (
         <div className={style.contacts}>
             {
